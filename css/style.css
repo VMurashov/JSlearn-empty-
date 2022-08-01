@@ -7,9 +7,9 @@
    top: 0;
 }
 
-.modal__pannel {
+.modal__panel {
     width: 30%;  
-    background-color: rgba(130, 107, 107, 0.771);
+    background-color: #CDF7C1;
     top: 0;
     left: 0;
     position: fixed;
@@ -20,10 +20,10 @@
 .click__button {
     width: 50px;
     height: 160px;
-    color: rgba(0, 0, 0, 0.59);
-    background-color: rgba(214, 205, 205, 0.872);
+    color: #000000;
+    background-color: #D6CDBB;
     border-radius: 80px;
-    border-color: rgb(233, 7, 7);
+    border-color: #e90796;
     writing-mode: vertical-lr;
     margin: 0 auto;
     outline: none;
@@ -36,16 +36,16 @@
 }
 
 .click__button:hover {
-    background-color: rgba(255, 0, 0, 0.436);
+    background-color: #ff0000;
     transition: 1s;
-    color: rgb(0, 0, 0);
+    color: #000000;
 }
 
 .modal {
     width: 40%;
     height: 100%;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.401);
+    background-color: #000000;
     left: 30%;
     top: 0%;
 }
@@ -56,7 +56,7 @@
 }
 
 .modal__title {
-    font-size: x-large;
+    font-size: 30px;
     display: flex;
     margin-left: 20%;
     color: white;
@@ -73,13 +73,13 @@
 }
 
 .modal__close:hover{
-    background-color: rgba(255, 0, 0, 0.436);
+    background-color: #ff0000;
     transition: 1s;
-    color: rgb(0, 0, 0);
+    color: #000000;
 }
 
 .modal__description {
-    color: white;
+    color: #ffffff;
     font-size: medium;
     display: flex;
     margin: 0 auto;
@@ -95,13 +95,13 @@
     width: 90px;
     border-radius: 40px;
     position: fixed;
-    color: brown;
+    color: #a52a2a;
     left: 46%;
     top: 50%;
 }
 
 .modal__button:hover{
-    background-color: rgba(255, 0, 0, 0.436);
+    background-color: #ff0000;
     transition: 1s;
-    color: rgb(0, 0, 0);
+    color: #000000;
 }
